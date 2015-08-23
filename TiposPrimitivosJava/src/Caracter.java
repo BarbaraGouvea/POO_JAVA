@@ -1,4 +1,3 @@
-
 public class Caracter {
 	public static void main (String []args){
 	//char c='A';

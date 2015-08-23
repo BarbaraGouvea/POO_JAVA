@@ -1,4 +1,4 @@
-import java.util.Map;
+jason deriimport java.util.Map;
 import java.util.HashMap;
 
 
@@ -12,14 +12,14 @@ public class Mapas {
 		System.out.println(paises.containsKey("Argentina"));
 		paises.remove("Argentina");
 		paises.remove("Argentina");//pra ver se dá pau se tentar remover um que ja não tem mais
-		
+
 		for (String chave: paises.keySet())
 		{
 			System.out.println(chave+":"+paises.get(chave));
 		}
-		
-		
-		
+
+
+
 		// TODO Auto-generated method stub
 
 	}

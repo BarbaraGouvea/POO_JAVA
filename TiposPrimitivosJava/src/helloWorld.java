@@ -1,5 +1,5 @@
 
-public class helloWorldJava {
+public class helloWorld {
 	public static void main (String []args){
 		String a;
 		a="Hello World";
