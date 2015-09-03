@@ -12,10 +12,16 @@ public class Main{
 	Animal vetAnimais[]= {dog, dog1, cat, cat1};
 	
 	for (int i=0; i<vetAnimais.length; i++){
-		System.out.println("Raça: "+vetAnimais[i].raca+" Idade: "+vetAnimais[i].idade+ " Peso:\n "+vetAnimais[i].peso );
-		vetAnimais[i].fazerBarulho();
-		
+		System.out.println("Raça: "+vetAnimais[i].raca+" Idade: "+vetAnimais[i].idade+ " Peso: "+vetAnimais[i].peso );
+		System.out.println("\n");
 	}
+	dog.fazerBarulho();
+	dog1.fazerBarulho();
+	
+	cat.fazerBarulho();
+	cat1.fazerBarulho();
+	
+
 	
 	
 	

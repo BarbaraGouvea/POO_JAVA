@@ -4,7 +4,7 @@ public class ManadaVirgula extends Manada {
 
 	@Override
 	public String estourar() {
-		for (int i; i<=)
+		//for ()
 		
 		// TODO Auto-generated method stub
 		return null;
