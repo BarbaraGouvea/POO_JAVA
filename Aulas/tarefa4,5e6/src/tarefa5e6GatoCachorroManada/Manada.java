@@ -17,6 +17,14 @@ public abstract class Manada {
 			ListAnimal.add(a);
 			
 		}
+		
+		public List<Animal>getAnimais(){
+			return ListAnimal;
+		}
+		
+		public void setAnimais(List<Animal>ListAnimais){
+			this.ListAnimal=ListAnimais;
+		}
 
 	
 

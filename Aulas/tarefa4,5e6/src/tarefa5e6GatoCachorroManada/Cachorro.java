@@ -4,8 +4,8 @@ import tarefa4e5.Animal;
 
 public class Cachorro extends Animal{
 				
-		public Cachorro (String raca, int idade, float peso){
-			super(raca, idade, peso);
+		public Cachorro (String raca,String nome, int idade, float peso){
+			super(raca, nome, idade, peso);
 		}
 		
 		
